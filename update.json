@@ -1,7 +1,7 @@
 {
-  "version": "0.5.1",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.1/iPos.Sync.Agent.Setup.0.5.1.exe",
-  "sha256": "cccacda5d69ecdd0fcc825be5fdb4b2356cf6b91d54e8570b36fa85ad2e3e020",
-  "release_notes": "iPos Sync Agent v0.5.1 adds the production in-app update flow with verified installer downloads, SHA-256 validation, safer install handoff, and no automatic relaunch during upgrades.",
+  "version": "0.5.2",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.2/iPos.Sync.Agent.Setup.0.5.2.exe",
+  "sha256": "DFDD2B09737D1B4FEAE8752671A540B25F30A56AAC07668E804C71EC9FBBCC87",
+  "release_notes": "iPos Sync Agent v0.5.2 preserves manual WooCommerce categories and metadata on existing products. Product updates no longer send categories, while price, stock, name, and status continue to sync according to the existing workflow.",
   "mandatory": false
 }
