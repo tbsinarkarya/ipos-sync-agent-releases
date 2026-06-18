@@ -1,0 +1,7 @@
+{
+  "version": "0.5.1",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.1/iPos%20Sync%20Agent%20Setup%200.5.1.exe",
+  "sha256": "e722065030b45580b7629c2fb29eb17063660d8084e479170909340ad43e92cb",
+  "release_notes": "iPos Sync Agent v0.5.1 adds the production in-app update flow with verified installer downloads, SHA-256 validation, safer install handoff, and no automatic relaunch during upgrades.",
+  "mandatory": false
+}
