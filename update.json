@@ -1,7 +1,7 @@
 {
-  "version": "0.5.2",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.2/iPos.Sync.Agent.Setup.0.5.2.exe",
-  "sha256": "DFDD2B09737D1B4FEAE8752671A540B25F30A56AAC07668E804C71EC9FBBCC87",
-  "release_notes": "iPos Sync Agent v0.5.2 preserves manual WooCommerce categories and metadata on existing products. Product updates no longer send categories, while price, stock, name, and status continue to sync according to the existing workflow.",
-  "mandatory": false
+    "version":  "0.5.3",
+    "installer_url":  "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.3/iPos.Sync.Agent.Setup.0.5.3.exe",
+    "sha256":  "86D1E5D0840183D6BAECEFF24F7F85E3C1F39802416318AE5A58DBF518970874",
+    "release_notes":  "iPos Sync Agent v0.5.3 menjaga field WooCommerce milik toko. Produk existing hanya menerima pembaruan harga dan stok dari iPos; nama produk existing tidak lagi ditimpa, status publikasi existing dipertahankan, dan kategori existing tetap dipertahankan. Produk baru dari iPos sekarang dibuat sebagai draft agar pengguna dapat melengkapi nama SEO, gambar, kategori, dan informasi produk sebelum publish.",
+    "mandatory":  false
 }
