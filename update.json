@@ -1,7 +1,7 @@
 {
-    "version":  "0.5.3",
-    "installer_url":  "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.3/iPos.Sync.Agent.Setup.0.5.3.exe",
-    "sha256":  "86D1E5D0840183D6BAECEFF24F7F85E3C1F39802416318AE5A58DBF518970874",
-    "release_notes":  "iPos Sync Agent v0.5.3 menjaga field WooCommerce milik toko. Produk existing hanya menerima pembaruan harga dan stok dari iPos; nama produk existing tidak lagi ditimpa, status publikasi existing dipertahankan, dan kategori existing tetap dipertahankan. Produk baru dari iPos sekarang dibuat sebagai draft agar pengguna dapat melengkapi nama SEO, gambar, kategori, dan informasi produk sebelum publish.",
-    "mandatory":  false
+  "version": "0.5.4",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.4/iPos.Sync.Agent.Setup.0.5.4.exe",
+  "sha256": "C94EA99DEF6A76F6F86B4912FB2174C3B2AA5630A6FCF8D6CEADB11810970E1F",
+  "release_notes": "iPos Sync Agent v0.5.4 improves product sync performance and runtime stability, adds latest backup selection, credential cleanup, and App Data Backup Export/Restore. Secret credentials are not included in app data backups and must be entered again after migration.",
+  "mandatory": false
 }
