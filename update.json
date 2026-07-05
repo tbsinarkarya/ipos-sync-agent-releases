@@ -1,7 +1,7 @@
 {
-  "version": "0.5.5",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.5/iPos.Sync.Agent.Setup.0.5.5.exe",
-  "sha256": "61EE4971301C753A461BE3CD547C94B46F8C1B615E8522CFD3B2D3F45CA5C6AB",
-  "release_notes": "iPos Sync Agent v0.5.5 adds Product Manager select-all and clear-all for the active page, tri-state header selection, and Refresh behavior that clears search while preserving filters and Rows per page.",
+  "version": "0.5.6",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.6/iPos.Sync.Agent.Setup.0.5.6.exe",
+  "sha256": "76E002B80CCA438684362C7ED4AD38E1A7AAD31C47A0C18BE7A3B20CB70D7711",
+  "release_notes": "iPos Sync Agent v0.5.6 adds multi-unit WooCommerce payload validation, safer existing product updates, filtered pg_restore WITH OIDS restore logs, and accurate Retry Failed Products per-SKU reporting.",
   "mandatory": false
 }
