@@ -1,7 +1,7 @@
 {
-  "version": "0.5.6",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.6/iPos.Sync.Agent.Setup.0.5.6.exe",
-  "sha256": "76E002B80CCA438684362C7ED4AD38E1A7AAD31C47A0C18BE7A3B20CB70D7711",
-  "release_notes": "iPos Sync Agent v0.5.6 adds multi-unit WooCommerce payload validation, safer existing product updates, filtered pg_restore WITH OIDS restore logs, and accurate Retry Failed Products per-SKU reporting.",
+  "version": "0.5.7",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.7/iPos.Sync.Agent.Setup.0.5.7.exe",
+  "sha256": "8D2F03F5627754EDE02E32BEB5DCAAA9A322E0F495FAB4BE96A64B6C152298F3",
+  "release_notes": "iPos Sync Agent v0.5.7 completes Phase 5B: permanent per-product multi-unit WooCommerce payload gate, fixes regular_price decimal formatting, and simplifies the SUCCESS sync log.",
   "mandatory": false
 }
