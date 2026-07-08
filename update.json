@@ -1,7 +1,7 @@
 {
-  "version": "0.5.7",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.7/iPos.Sync.Agent.Setup.0.5.7.exe",
-  "sha256": "8D2F03F5627754EDE02E32BEB5DCAAA9A322E0F495FAB4BE96A64B6C152298F3",
-  "release_notes": "iPos Sync Agent v0.5.7 completes Phase 5B: permanent per-product multi-unit WooCommerce payload gate, fixes regular_price decimal formatting, and simplifies the SUCCESS sync log.",
+  "version": "0.5.8",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.8/iPos.Sync.Agent.Setup.0.5.8.exe",
+  "sha256": "278BC9D1AEEB8AE82ABAABEA0F7A968552750819375149FBCE2516F3F0B39693",
+  "release_notes": "iPos Sync Agent v0.5.8 is a UX/performance patch: safer Product Manager editing (wheel-scroll fix, bulk unit/level edit), a progress-bar sync dashboard, wc_product_id caching for faster sync, and Logs tab usability fixes.",
   "mandatory": false
 }
