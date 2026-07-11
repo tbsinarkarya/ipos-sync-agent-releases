@@ -1,7 +1,7 @@
 {
-  "version": "0.5.8",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.8/iPos.Sync.Agent.Setup.0.5.8.exe",
-  "sha256": "278BC9D1AEEB8AE82ABAABEA0F7A968552750819375149FBCE2516F3F0B39693",
-  "release_notes": "iPos Sync Agent v0.5.8 is a UX/performance patch: safer Product Manager editing (wheel-scroll fix, bulk unit/level edit), a progress-bar sync dashboard, wc_product_id caching for faster sync, and Logs tab usability fixes.",
+  "version": "0.5.9",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.9/iPos.Sync.Agent.Setup.0.5.9.exe",
+  "sha256": "BD517A9B42DD841DEAE23E221B88D882D8506BC348CA6FC75C24F5C26CBE8FC8",
+  "release_notes": "iPos Sync Agent v0.5.9 adds a persistent Dashboard update notice, modeled on iPos 5's update-notification UX: a clickable text notice reminds you an update is available every time the app opens, until you actually update. No changes to sync logic, pricing, or Product Manager behavior from v0.5.8.",
   "mandatory": false
 }
