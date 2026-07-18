@@ -1,7 +1,7 @@
 {
-  "version": "0.5.10",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.10/iPos.Sync.Agent.Setup.0.5.10.exe",
-  "sha256": "71DAFB9DEBEDE092B64A03C4DFFCCAE1CFCCEA6019914A55DD03FF6B6D956F26",
-  "release_notes": "iPos Sync Agent v0.5.10 is an Import Backup safety/speed patch: SYNC SEKARANG and RETRY FAILED PRODUCTS now lock automatically while Import Backup is running, the pg_restore console window no longer flashes on screen, and restores are up to 2.25x faster (pg_restore --jobs=4, verified against a real production backup with identical data). No changes to sync logic, pricing, or Product Manager behavior from v0.5.9.",
+  "version": "0.5.11",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.11/iPos.Sync.Agent.Setup.0.5.11.exe",
+  "sha256": "7837D8496A007A978C08FE9220A0D31186709EC46A4B23132D3339A2F6AADA1D",
+  "release_notes": "iPos Sync Agent v0.5.11 adds a working STOP SYNC button (safely cancels between products, never mid-request), switches WooCommerce sync to the Batch API for already-synced products (25 products per HTTP request instead of one at a time), and fixes a real performance bug where Import Backup never created database indexes - queue load time for thousands of products dropped from 6+ seconds to under 1 second. No changes to pricing logic, multi-unit payloads, or the 4-field update rule from v0.5.10.",
   "mandatory": false
 }
