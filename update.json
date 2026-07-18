@@ -1,7 +1,7 @@
 {
-  "version": "0.5.9",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.9/iPos.Sync.Agent.Setup.0.5.9.exe",
-  "sha256": "BD517A9B42DD841DEAE23E221B88D882D8506BC348CA6FC75C24F5C26CBE8FC8",
-  "release_notes": "iPos Sync Agent v0.5.9 adds a persistent Dashboard update notice, modeled on iPos 5's update-notification UX: a clickable text notice reminds you an update is available every time the app opens, until you actually update. No changes to sync logic, pricing, or Product Manager behavior from v0.5.8.",
+  "version": "0.5.10",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.10/iPos.Sync.Agent.Setup.0.5.10.exe",
+  "sha256": "71DAFB9DEBEDE092B64A03C4DFFCCAE1CFCCEA6019914A55DD03FF6B6D956F26",
+  "release_notes": "iPos Sync Agent v0.5.10 is an Import Backup safety/speed patch: SYNC SEKARANG and RETRY FAILED PRODUCTS now lock automatically while Import Backup is running, the pg_restore console window no longer flashes on screen, and restores are up to 2.25x faster (pg_restore --jobs=4, verified against a real production backup with identical data). No changes to sync logic, pricing, or Product Manager behavior from v0.5.9.",
   "mandatory": false
 }
