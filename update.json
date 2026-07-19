@@ -1,7 +1,7 @@
 {
-  "version": "0.5.11",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.11/iPos.Sync.Agent.Setup.0.5.11.exe",
-  "sha256": "7837D8496A007A978C08FE9220A0D31186709EC46A4B23132D3339A2F6AADA1D",
-  "release_notes": "iPos Sync Agent v0.5.11 adds a working STOP SYNC button (safely cancels between products, never mid-request), switches WooCommerce sync to the Batch API for already-synced products (25 products per HTTP request instead of one at a time), and fixes a real performance bug where Import Backup never created database indexes - queue load time for thousands of products dropped from 6+ seconds to under 1 second. No changes to pricing logic, multi-unit payloads, or the 4-field update rule from v0.5.10.",
+  "version": "0.5.12",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.5.12/iPos.Sync.Agent.Setup.0.5.12.exe",
+  "sha256": "E7A6648D4D070D0EDBA1DE422F98D6F8D8C05E15327032E32ACCB1472E72D9D4",
+  "release_notes": "iPos Sync Agent v0.5.12 moves the entire update flow into the Dashboard \"Update Tersedia\" popup - download progress and install now happen there without switching tabs, and the redundant DOWNLOAD UPDATE / BATALKAN DOWNLOAD / INSTALL UPDATE controls have been removed from Settings (PERIKSA UPDATE stays for a manual check). No changes to sync logic, pricing, or the Batch API/STOP SYNC/index fixes from v0.5.11.",
   "mandatory": false
 }
