@@ -1,7 +1,7 @@
 {
-  "version": "0.6.0",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.6.0/iPos.Sync.Agent.Setup.0.6.0.exe",
-  "sha256": "4A4C352A8819A0ECC7CF86F442C8764D5B00F52DB80CF1F4B3282DF79F5D805E",
-  "release_notes": "iPos Sync Agent v0.6.0 adds Meta Catalog / WhatsApp Business Catalog sync (dry-run + live), independent per-target active-product lists, a 500-product WhatsApp limit enforced in the UI, and Meta live sync results now logged to the same centralized Logs table WooCommerce uses. Also tightens the \"Pilih Target Sync\" dialog (no more Mode dropdown, sizing now tracks its natural layout). No changes to WooCommerce sync logic, pricing, or the Batch API/STOP SYNC/index fixes from v0.5.x.",
+  "version": "0.6.1",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.6.1/iPos.Sync.Agent.Setup.0.6.1.exe",
+  "sha256": "70CB3FD9C2C519401C94294EFFF671E2106D0500A06719BC7CC711F458AAE630",
+  "release_notes": "iPos Sync Agent v0.6.1 adds Meta Product Set (Collection WhatsApp) rollout grouped by parent category, fixes a PermissionError writing Meta Catalog sync result files under Program Files (now stored under %LOCALAPPDATA%\\iPos Sync Agent\\), moves category/taxonomy mapping from hardcoded constants to an external, auto-seeded category_mapping.json, and fixes product gallery images not being sent to Meta Catalog. No changes to WooCommerce sync logic, pricing, or the Batch API/STOP SYNC/index fixes from v0.6.0.",
   "mandatory": false
 }
