@@ -1,7 +1,7 @@
 {
-  "version": "0.6.1",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.6.1/iPos.Sync.Agent.Setup.0.6.1.exe",
-  "sha256": "70CB3FD9C2C519401C94294EFFF671E2106D0500A06719BC7CC711F458AAE630",
-  "release_notes": "iPos Sync Agent v0.6.1 adds Meta Product Set (Collection WhatsApp) rollout grouped by parent category, fixes a PermissionError writing Meta Catalog sync result files under Program Files (now stored under %LOCALAPPDATA%\\iPos Sync Agent\\), moves category/taxonomy mapping from hardcoded constants to an external, auto-seeded category_mapping.json, and fixes product gallery images not being sent to Meta Catalog. No changes to WooCommerce sync logic, pricing, or the Batch API/STOP SYNC/index fixes from v0.6.0.",
+  "version": "0.6.2",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.6.2/iPos.Sync.Agent.Setup.0.6.2.exe",
+  "sha256": "FA15D678F097340F3A2AFC08BD1A69A14CB675B8C234BA82E542388921A06672",
+  "release_notes": "iPos Sync Agent v0.6.2 makes Target Sync fully independent per (product, sync target), adds temporary Meta Catalog exclusion (\"rem sementara\") so toggling Target Sync off skips a product from Meta sync entirely, makes Meta Catalog live sync crash-resilient (logs partial progress instead of losing it) and adds automatic re-lookup for WooCommerce products whose cached ID went stale, switches Meta Product Set membership to a dynamic category filter (custom_label_0) instead of a static retailer_id snapshot, adds an in-app category/sub-category editor popup for Meta Catalog (Product Manager, dark/light), and adds a Status/Marketplace filter plus a background-thread fix for the Logs tab that eliminates the UI freeze when switching filters on large log tables. No changes to WooCommerce sync logic, pricing, or the Batch API/STOP SYNC/index fixes from v0.6.1.",
   "mandatory": false
 }
