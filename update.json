@@ -1,7 +1,7 @@
 {
-  "version": "0.6.4",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.6.4/iPos.Sync.Agent.Setup.0.6.4.exe",
-  "sha256": "842516582C229640ADEDEA9197689A5CBF5DF83120CA9CFDC50E2CE56BA2ECCD",
-  "release_notes": "iPos Sync Agent v0.6.4 makes the app data backup carry everything needed to clone one computer's setup onto another. Backups now include the product_sync_targets table (the per-target active/paused state the Product Manager reads, format v2) and the category_mapping.json file with the Meta category and Google taxonomy mapping (format v3), restored through the same safe path the category editor uses: structural validation, a .bak of the previous file, an atomic write, and an in-memory reload. Restore no longer wipes local settings with blank values from a backup - an empty META_CATALOG_ID (or any other non-secret field) in the archive leaves the local value untouched and reports it as a warning - and export now writes the real Catalog ID and sync target values instead of always writing empty strings. Restoring an older backup still works and states plainly what it could not carry over. After a restore the Product Manager reloads on its own, and the result popup lists the restored tables, files, and any warnings. No changes to sync logic, pricing, or payloads.",
+  "version": "0.7.0",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.7.0/iPos.Sync.Agent.Setup.0.7.0.exe",
+  "sha256": "0E36F0A9C2013EEC0B6FC9EE463A434592BB343C0D7AE4742A7B137F8999999C",
+  "release_notes": "iPos Sync Agent v0.7.0 menghadirkan tampilan baru menyeluruh berbahasa Indonesia: rail navigasi kiri (Beranda, Dasbor, Produk, Log, Pengaturan) dengan indikator koneksi, Beranda dengan banner status setup dinamis, Dasbor baru dengan band status, kartu target WooCommerce & Meta Catalog, dan panel Aktivitas, tabel Produk dan Log yang dirapikan dengan pill status berwarna, dialog Kategori Meta tanpa frame, halaman Pengaturan berkartu, serta geometri window adaptif. Tidak ada perubahan pada logika sync, harga, atau payload.",
   "mandatory": false
 }
