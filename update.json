@@ -1,7 +1,7 @@
 {
-  "version": "0.7.0",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.7.0/iPos.Sync.Agent.Setup.0.7.0.exe",
-  "sha256": "0E36F0A9C2013EEC0B6FC9EE463A434592BB343C0D7AE4742A7B137F8999999C",
-  "release_notes": "iPos Sync Agent v0.7.0 menghadirkan tampilan baru menyeluruh berbahasa Indonesia: rail navigasi kiri (Beranda, Dasbor, Produk, Log, Pengaturan) dengan indikator koneksi, Beranda dengan banner status setup dinamis, Dasbor baru dengan band status, kartu target WooCommerce & Meta Catalog, dan panel Aktivitas, tabel Produk dan Log yang dirapikan dengan pill status berwarna, dialog Kategori Meta tanpa frame, halaman Pengaturan berkartu, serta geometri window adaptif. Tidak ada perubahan pada logika sync, harga, atau payload.",
+  "version": "0.7.1",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.7.1/iPos.Sync.Agent.Setup.0.7.1.exe",
+  "sha256": "A8847F05BE3593DA46CFC038FE6A8989958905DBAF11FD4B409424E80416A32C",
+  "release_notes": "iPos Sync Agent v0.7.1 menambahkan sinkronisasi satuan produk ke WooCommerce: setiap update produk kini ikut mengisi field \"Satuan\" di tema tbsinarkarya.com (mis. mtr, lbr, sak, pcs), diambil dari satuan yang sama yang dipakai untuk menentukan harga di iPos. Satuan dikirim apa adanya sebagai kode singkatan huruf kecil, tanpa tabel terjemahan. Produk yang satuannya kosong di iPos dilewati - nilai yang sudah ada di WooCommerce tidak pernah terhapus. Tidak ada tambahan query database maupun request jaringan, jadi kecepatan sync tidak berubah. Harga, stok, dan payload Meta Catalog / WhatsApp tidak berubah sedikit pun.",
   "mandatory": false
 }
