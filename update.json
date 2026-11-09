@@ -1,7 +1,7 @@
 {
-  "version": "0.7.1",
-  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.7.1/iPos.Sync.Agent.Setup.0.7.1.exe",
-  "sha256": "A8847F05BE3593DA46CFC038FE6A8989958905DBAF11FD4B409424E80416A32C",
-  "release_notes": "iPos Sync Agent v0.7.1 menambahkan sinkronisasi satuan produk ke WooCommerce: setiap update produk kini ikut mengisi field \"Satuan\" di tema tbsinarkarya.com (mis. mtr, lbr, sak, pcs), diambil dari satuan yang sama yang dipakai untuk menentukan harga di iPos. Satuan dikirim apa adanya sebagai kode singkatan huruf kecil, tanpa tabel terjemahan. Produk yang satuannya kosong di iPos dilewati - nilai yang sudah ada di WooCommerce tidak pernah terhapus. Tidak ada tambahan query database maupun request jaringan, jadi kecepatan sync tidak berubah. Harga, stok, dan payload Meta Catalog / WhatsApp tidak berubah sedikit pun.",
+  "version": "0.7.2",
+  "installer_url": "https://github.com/tbsinarkarya/ipos-sync-agent-releases/releases/download/v0.7.2/iPos.Sync.Agent.Setup.0.7.2.exe",
+  "sha256": "5702FDCB93448BC60DCB9C0B9DDDF5CDD5AF5F8F3479EAA4E40AFF60B0B0E088",
+  "release_notes": "iPos Sync Agent v0.7.2 memperbaiki produk \"hantu\" yang kodenya sudah diganti atau dihapus di iPos (contoh 019504 yang kini menjadi SK9504). Produk seperti itu tidak lagi muncul di tab Produk, tidak dihitung di header, counter aktif, maupun Dasbor, dan tidak masuk antrean sync WooCommerce maupun Meta Catalog - sehingga total produk kini sama dengan Daftar Item iPos. Setelah Impor Backup, panel Aktivitas mencatat berapa kode produk yang diabaikan. Data lama tidak dihapus, dan harga, stok, serta payload WooCommerce dan Meta Catalog tidak berubah.",
   "mandatory": false
 }
